@@ -1,0 +1,104 @@
+<!-- Henry Carnegie
+121140054
+Praktikum Pemweb RC -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <h1 class="title">Latihan Percobaan</h1>
+    <header class="header">
+        <div class="header-container">
+            <img src="picture-1.png" alt="Ini foto pertama">
+            <div class="header-text">
+                <h1>Henry Carnegie</h1>
+                <p>Saya mahasiswa S1 Teknik Informatika di Institut Teknologi Sumatera</p>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <ul>
+                <li><a href="https://henrycarnegie.github.io/Pemweb/">Portofolio</a></li>
+                <li><a href="https://www.itera.ac.id/">Kampus saya</a></li>
+                <li><a href="https://instagram.com/henrycrg?igshid=OGQ5ZDc2ODk2ZA==">Instagram Saya</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="about-me">
+        <div class="about-me-container">
+            <div class="about-text">
+                <h2>Tentang Saya</h2>
+                <p>Saya adalah seorang mahasiswa tahun ke-3 di program studi  Teknik Informatika  
+                dengan keahlian utama di bidang UX Design. Jika Anda memiliki pertanyaan lebih lanjut atau ingin 
+                tahu lebih banyak tentang topik ini, jangan ragu untuk bertanya lebih lanjut!</p>
+            </div>
+           <div class="about-video">
+                <video width="200" height="250" controls>
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <h3>Satria main holahop</h3>
+        </div>
+    </section>
+    <section class="teman-saya">
+        <div class="teman-container">
+            <h2>Teman teman Saya</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th colspan="2">Jurusan/Prodi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Abdi Maskur</td>
+                        <td>JTPI</td>
+                        <td>Teknik Informatika</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Aldi Rizki</td>
+                        <td>JTPI</td>
+                        <td>Teknik Fisika</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Voulince P</td>
+                        <td>JTIK</td>
+                        <td>Teknik Sipil</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="hubungi-saya">
+        <form method="post" action="process.php">
+            <h2>Hubungi Saya</h2>
+            <label>Email: </label>
+            <input type="email" name="email" class="email-input">
+            <br><br>
+            <label>Manakah nama saya?</label><br>
+            <input type="radio" name="pilih-nama" value="ans-1">Henry<br>
+            <input type="radio" name="pilih-nama" value="ans-2">Hendri<br>
+            <br><br>
+            <label>Manakah hobi saya??</label><br>
+            <input type="checkbox" name="pilih-nama" value="ans-1">musik<br>
+            <input type="checkbox" name="pilih-nama" value="ans-2">renang<br>
+            <input type="checkbox" name="pilih-nama" value="ans-3">terbang<br>
+            <br>
+            <input type="submit" class="submit-button">
+    </section>
+    <footer class="footer">
+        <p>&copy; 2023 Henry Carnegie. All right reserved</p>
+    </footer>
+</body>
+</html>
